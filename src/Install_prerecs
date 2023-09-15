@@ -12,7 +12,8 @@
 # Ansible uses a simple language, YAML, to define playbooks. Ansible doesn't require the installation of any extra agents on the managed nodes.
 
 Install_Yum () {
-
+    sudo yum -y groupinstall "Development Tools"
+    sudo yum -y install gcc openssl-devel bzip2-devel libffi-devel}
 }
 
 Install_Python_2.7 () {
