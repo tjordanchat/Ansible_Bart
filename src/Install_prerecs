@@ -18,3 +18,8 @@ Install_Yum () {
 Install_Python_2.7 () {
 
 }
+
+Install_Ansible () {
+    pip3 install ansible
+    ansible --version | grep "python version"
+}
