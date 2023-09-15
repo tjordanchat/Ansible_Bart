@@ -21,7 +21,7 @@ Install_Pip () {
 }
 
 Install_Python_3.5 () {
-
+    sudo yum install -y python3
 }
 
 Install_Ansible () {
