@@ -3,7 +3,7 @@
 # To install Ansible, you need:
 # A machine with Python 2.7 or Python 3.5 or higher installed. This includes Red Hat, Debian, CentOS, macOS, and BSDs.
 # The latest stable version of a package manager, such as yum.
-Ansible version 2.14 or later.
+# Ansible version 2.14 or later.
 # 4 GB of memory.
 # 20 GB of dedicated hard disk space.
 # A currently supported version of Mozilla FireFox or Google Chrome.
@@ -11,3 +11,10 @@ Ansible version 2.14 or later.
 # Ansible recommends 4 GB of memory per 100 forks. For example, if forks is set to 100, 4 GB of memory is recommended. If forks is set to 400, 16 GB of memory is recommended.
 # Ansible uses a simple language, YAML, to define playbooks. Ansible doesn't require the installation of any extra agents on the managed nodes.
 
+Install_Yum () {
+
+}
+
+Install_Python_2.7 () {
+
+}
